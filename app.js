@@ -193,7 +193,7 @@ function viewContact(){
     <span class="eyebrow">Say Hello</span>
     <h1>Contact</h1>
     <p>I'm always happy to connect. Reach out with questions, ideas, or project inquiries, and I'll get back to you as soon as possible.</p>
-    <form class="form-grid" id="contactForm" action="https://formspree.io/f/sarahmulig22@gmail.com" method="POST">
+    <form class="form-grid" id="contactForm" action="https://formsubmit.co/ajax/sarahmulig22@gmail.com" method="POST">
       <div class="field"><label>First Name</label><input type="text" name="first_name" required></div>
       <div class="field"><label>Last Name</label><input type="text" name="last_name" required></div>
       <div class="field full"><label>Your email</label><input type="email" name="email" required></div>
@@ -232,17 +232,13 @@ function wireContactForm(){
         body: new FormData(form),
         headers: { "Accept": "application/json" }
       });
-      if(res.ok){
+      const data = await res.json().catch(()=>null);
+      if(res.ok && data && (data.success === "true" || data.success === true)){
         form.reset();
         status.textContent = "Thank you! Your message has been sent — I'll get back to you soon.";
         status.style.color = "var(--accent)";
       } else {
-        const data = await res.json().catch(()=>null);
-        if(data && data.errors && data.errors.some(er => /confirm/i.test(er.message||""))){
-          status.textContent = "Almost there — this form needs a one-time email confirmation. Please check sarahmulig22@gmail.com for a confirmation link from Formspree, click it, then try sending again.";
-        } else {
-          status.textContent = "Something went wrong sending your message. Please email sarahmulig22@gmail.com directly.";
-        }
+        status.textContent = "Almost there — check sarahmulig22@gmail.com for a one-time activation email and click the link, then try sending again.";
         status.style.color = "var(--accent)";
       }
     } catch(err){
