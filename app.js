@@ -216,7 +216,6 @@ function viewContact(){
   </section>
   ${footerHTML()}`;
 }
-
 function wireContactForm(){
   const form = document.getElementById('contactForm');
   if(!form) return;
