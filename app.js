@@ -57,9 +57,9 @@ const PROJECTS = [
 ];
 
 const SERVICES = [
-  {icon:"\u270E", title:"Social Media Graphics", cat:"Social Media", desc:"Engaging posts, promotional materials, and branded content."},
-  {icon:"\u{1F389}", title:"Event & Party Designs", cat:"Event & Party", desc:"Invitations, signage, tags, souvenirs, and themed event materials."},
-  {icon:"\u{1F3AF}", title:"Branding & Marketing Materials", cat:"Branding & Marketing", desc:"Logos, business cards, flyers, posters, and other promotional designs."}
+  {images:["1.jpg"], title:"Social Media Graphics", cat:"Social Media", desc:"Engaging posts, promotional materials, and branded content."},
+  {images:["2.jpg"], title:"Event & Party Designs", cat:"Event & Party", desc:"Invitations, signage, tags, souvenirs, and themed event materials."},
+  {images:["3.jpg"], title:"Branding & Marketing Materials", cat:"Branding & Marketing", desc:"Logos, business cards, flyers, posters, and other promotional designs."}
 ];
 
 /* ---------- HELPERS ---------- */
