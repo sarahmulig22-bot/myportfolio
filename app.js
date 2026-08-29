@@ -4,7 +4,7 @@ const PROJECTS = [
     key:"francine", title:"Francine's 1st Birthday",
     desc:"A soft, blush-pink celebration design with plush bunny details, made to capture the sweetness of Francine's very first birthday.",
     tags:["Invitation"],
-    images:["images/francine-1.jpg"]
+    images:["francine-1.jpg"]
   },
   {
     key:"olivia", title:"Olivia's 1st Birthday",
