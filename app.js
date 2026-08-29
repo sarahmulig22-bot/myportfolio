@@ -10,49 +10,49 @@ const PROJECTS = [
     key:"olivia", title:"Olivia's 1st Birthday",
     desc:"A vibrant floral celebration bursting with cheerful colors, playful details, and the joyful spirit of Olivia's first birthday.",
     tags:["Favor Tags","Party Games"],
-    images:["olivia-1.jpg","olivia-2.jpg","olivia-3.jpg"]
+      images:["images/o1.jpg","images/o2.jpg","images/o3.jpg","images/o4.jpg","images/o5.jpg"]
   },
   {
     key:"jden1", title:"Jden's 1st Birthday",
     desc:"A playful Mickey Mouse Clubhouse design filled with cheerful colors, fun details, and childhood charm.",
     tags:["Favor Tags","Party Games","Thankyou Games"],
-    images:["jden-birthday-1.jpg","jden-birthday-2.jpg","jden-birthday-3.jpg"]
+    images:["images/j1.jpg","images/j2.jpg","images/j3.jpg","images/j4.jpg","images/j5.jpg","images/j6.jpg"]
   },
   {
     key:"baptism", title:"Jden's Baptism",
     desc:"A serene hot air balloon design in soft blue shades, capturing a gentle and dreamy celebration of Jden's baptism.",
     tags:["Name Tags","Party Games"],
-    images:["images/jden-baptism-1.jpg","images/jden-baptism-2.jpg","images/jden-baptism-3.jpg"]
+    images:["images/b1.jpg","images/b2.jpg","images/b3.jpg"]
   },
   {
     key:"maggy", title:"Maggy's 2nd Birthday",
     desc:"A magical Frozen-inspired design in icy blues and soft pastels, capturing the wonder and sweetness of Maggy's second birthday.",
     tags:["Printed Customized Magnets"],
-    images:["images/maggy-1.jpg","images/maggy-2.jpg","images/maggy-3.jpg"]
+    images:["images/m1.jpg","images/m2.jpg","images/m3.jpg","images/m4.jpg","images/m5.jpg"]
   },
   {
     key:"stella", title:"Stella's 60th Birthday",
     desc:"A warm sunset-inspired design with vibrant tropical tones, capturing the festive and spirited charm of Stella's 60th birthday celebration.",
     tags:["Invitation","Event Signage","Party Favor Tags"],
-    images:["images/stella-1.jpg","images/stella-2.jpg"]
+    images:["images/s1.jpg","images/s2.jpg","images/s3.jpg"]
   },
   {
     key:"wedding", title:"Benly and Sarah Wedding",
     desc:"A timeless black-and-white design, blending classic elegance and refined simplicity to celebrate Benly and Sarah's wedding.",
     tags:["Invitation Set","Favor Tag","Thankyou Card"],
-    images:["images/wedding-1.jpg","images/wedding-2.jpg","images/wedding-3.jpg","images/wedding-4.jpg"]
+    images:["images/w.jpg","images/w1.jpg","images/w2.jpg","images/w3.jpg"]
   },
   {
     key:"signage", title:"Florante's Event Signage",
     desc:"A vibrant floral design filled with lively colors and joyful details, creating a fresh and welcoming event atmosphere.",
     tags:["Event Signage"],
-    images:["images/signage-1.jpg","images/signage-2.jpg","images/signage-3.jpg","images/signage-4.jpg","images/signage-5.jpg"]
+    images:["images/p1.jpg","images/p2.jpg","images/p3.jpg"]
   },
   {
     key:"cards", title:"Florante Cards",
     desc:"A soft, fuzzy blue floral design, blending delicate blooms with a cozy and charming handmade feel.",
     tags:["Business Cards","Thankyou Card"],
-    images:["images/cards-1.jpg","images/cards-2.jpg","images/cards-3.jpg"]
+    images:["images/c1.jpg","images/c2.jpg","images/c3.jpg","images/c4.jpg","images/c5.jpg"]
   }
 ];
 
