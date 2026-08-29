@@ -193,7 +193,8 @@ function viewContact(){
     <span class="eyebrow">Say Hello</span>
     <h1>Contact</h1>
     <p>I'm always happy to connect. Reach out with questions, ideas, or project inquiries, and I'll get back to you as soon as possible.</p>
-    <form class="form-grid" id="contactForm" action="https://formsubmit.co/ajax/sarahmulig22@gmail.com" method="POST">
+    <form class="form-grid" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="YOUR-ACCESS-KEY-HERE">
       <div class="field"><label>First Name</label><input type="text" name="first_name" required></div>
       <div class="field"><label>Last Name</label><input type="text" name="last_name" required></div>
       <div class="field full"><label>Your email</label><input type="email" name="email" required></div>
