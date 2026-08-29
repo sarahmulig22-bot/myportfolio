@@ -10,13 +10,13 @@ const PROJECTS = [
     key:"olivia", title:"Olivia's 1st Birthday",
     desc:"A vibrant floral celebration bursting with cheerful colors, playful details, and the joyful spirit of Olivia's first birthday.",
     tags:["Favor Tags","Party Games"],
-    images:["images/olivia-1.jpg","images/olivia-2.jpg","images/olivia-3.jpg"]
+    images:["olivia-1.jpg","olivia-2.jpg","olivia-3.jpg"]
   },
   {
     key:"jden1", title:"Jden's 1st Birthday",
     desc:"A playful Mickey Mouse Clubhouse design filled with cheerful colors, fun details, and childhood charm.",
     tags:["Favor Tags","Party Games","Thankyou Games"],
-    images:["images/jden-birthday-1.jpg","images/jden-birthday-2.jpg","images/jden-birthday-3.jpg"]
+    images:["jden-birthday-1.jpg","jden-birthday-2.jpg","jden-birthday-3.jpg"]
   },
   {
     key:"baptism", title:"Jden's Baptism",
